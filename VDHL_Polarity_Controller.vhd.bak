@@ -1,0 +1,16 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+LIBRARY work;
+ENTITY Polarity_Controller IS
+		PORT (
+				POLARITY_CNTRL, IN_1, IN_2, IN_3, IN_4 : IN STD_LOGIC;
+				OUT_1, OUT_2, OUT_3, OUT_4 : OUT STD_LOGIC
+				);
+END Polarity_Controller;
+
+ARCHITECTURE simple_gates OF Polarity_Controller IS
+BEGIN
+
+
+
+END simple_gates;
